@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
 
+    <!-- Icon -->
+    <link rel="icon" href="./images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -50,19 +53,19 @@
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right">
                         <li class="visible-xs">
-                            <a href="index.html">
+                            <a href="./index.html">
                                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
                         </li>
                         <li class="active">
-                            <a href="menu-categories.html">
+                            <a href="./menu-categories.html">
                                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="./about.html">
                                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="./awards.html">
                                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
                         </li>
                         <li id="phone" class="hidden-xs">
@@ -78,129 +81,165 @@
     <!-- End Header Nav -->
 
     <!-- Single Category Section -->
-    <section class="row">
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D01</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
-                    </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-                </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque
-                        cupiditate totam.
-                    </p>
-                </div>
-            </div>
-            <hr class="visible-xs">
-        </div>
+    <div id="main-content" class="container">
+        <section class="row" id="lunch-menu">
 
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D02</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
-                    </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-                </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam.
-                    </p>
-                </div>
+            <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+            <div class="text-center">
+                Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll.
             </div>
-            <hr class="visible-xs">
-        </div>
-        <!-- Add after every 2nd menu-item-tile -->
-        <div class="clearfix visible-lg-block visible-md-block"></div>
 
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D03</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>L19</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/Vg/Vg-9.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$10.95</div>
                     </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-                </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam.
-                    </p>
-                </div>
-            </div>
-            <hr class="visible-xs">
-        </div>
-
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D04</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Hunan Bean Curd</h3>
+                        <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
                     </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
                 </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam.
-                    </p>
-                </div>
+                <hr class="visible-xs">
             </div>
-            <hr class="visible-xs">
-        </div>
-        <!-- Add after every 2nd menu-item-tile -->
-        <div class="clearfix visible-lg-block visible-md-block"></div>
 
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D05</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>L8</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/C/C-4.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$10.95</div>
                     </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
-                </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam.
-                    </p>
-                </div>
-            </div>
-            <hr class="visible-xs">
-        </div>
-
-        <div class="menu-item-tile col-md-6">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="menu-item-photo">
-                        <div>D06</div>
-                        <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Eggplant with Garlic Sauce</h3>
+                        <p class="menu-item-details">white meat chicken, string beans, waterchestnuts, mushrooms, and eggplant, in garlic sauce</p>
                     </div>
-                    <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
                 </div>
-                <div class="menu-item-description col-sm-7">
-                    <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
-                    <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
-                        totam.
-                    </p>
-                </div>
+                <hr class="visible-xs">
             </div>
-            <hr class="visible-xs">
-        </div>
-        <!-- Add after every 2nd menu-item-tile -->
-        <div class="clearfix visible-lg-block visible-md-block"></div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
 
-    </section>
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>L1</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/C/C-1.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$10.95</div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Orange Chicken</h3>
+                        <p class="menu-item-details">chunks of chicken, breaded and deep-fried with sauce containing orange peels; white meat by request, $1 more for white meat.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>L9</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/C/C-15.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$10.95</div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Sweet and Sour Chicken</h3>
+                        <p class="menu-item-details">white meat chicken, breaded and fried with some green pepper, onion, and pineapples</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+        </section>
+
+        <section class="row" id="soup-menu">
+            <h2 id="menu-categories-title" class="text-center">Soup Menu</h2>
+            <div class="text-center"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>A3</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/A/A-3.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$3.50<span> (pint)</span> $7.00 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Corn Soup</h3>
+                        <p class="menu-item-details">clear chicken broth with creamy corn and egg drop with white meat chicken pieces</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>A4</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/A/A-4.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$4.50<span> (pint)</span> $9.00 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Hot and Sour Soup</h3>
+                        <p class="menu-item-details">tofu, chicken, mushroom, bamboo shoot, and egg</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>A6</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/A/A-6.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$3.50<span> (pint)</span> $7.00 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Noodle (or Rice) Soup</h3>
+                        <p class="menu-item-details">clear broth and lo mein noodles or white rice, chicken pieces</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>A8</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/menu/A/A-8.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$4.25<span> (pint)</span> $8.50 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Garden Vegetable Soup with Tofu</h3>
+                        <p class="menu-item-details">clear chicken broth with mixed vegetables (carrots, cabbage, baby corn, mushroom, snow peas) with tofu pieces</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+        </section>
 
     </div>
     <!-- End Single Category Section -->
@@ -223,7 +262,7 @@
                     <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
                 </section>
             </div>
-            <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+            <div class="text-center">&copy; Copyright David Chu's China Bistro 2021</div>
         </div>
     </footer>
     <!-- End Footer Section -->
